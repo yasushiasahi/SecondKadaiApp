@@ -12,6 +12,7 @@
 		41C0D4ED1F94957D009ADAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C0D4EB1F94957D009ADAB4 /* Main.storyboard */; };
 		41C0D4EF1F94957D009ADAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C0D4EE1F94957D009ADAB4 /* Assets.xcassets */; };
 		41C0D4F21F94957D009ADAB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C0D4F01F94957D009ADAB4 /* LaunchScreen.storyboard */; };
+		41C0D4FA1F949A8D009ADAB4 /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C0D4F91F949A8D009ADAB4 /* HelloViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		41C0D4EE1F94957D009ADAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C0D4F11F94957D009ADAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41C0D4F31F94957D009ADAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C0D4F91F949A8D009ADAB4 /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				41C0D4EE1F94957D009ADAB4 /* Assets.xcassets */,
 				41C0D4F01F94957D009ADAB4 /* LaunchScreen.storyboard */,
 				41C0D4F31F94957D009ADAB4 /* Info.plist */,
+				41C0D4F91F949A8D009ADAB4 /* HelloViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C0D4FA1F949A8D009ADAB4 /* HelloViewController.swift in Sources */,
 				41C0D4EA1F94957D009ADAB4 /* ViewController.swift in Sources */,
 				41C0D4E81F94957D009ADAB4 /* AppDelegate.swift in Sources */,
 			);
